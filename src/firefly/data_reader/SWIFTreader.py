@@ -105,6 +105,7 @@ class SWIFTreader(Reader):
         self.UInames = UInames
         self.decimation_factors = decimation_factors
         self.matid = np.array(matid)
+        self.npt = npt
         self.fields = fields
         ## do we want to filter on that attribute?
         self.filterFlags = filterFlags
