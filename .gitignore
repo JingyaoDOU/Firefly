@@ -43,3 +43,5 @@ __pycache__
 dist/*.whl
 dist/*.tar.gz
 */node_modules/*
+
+src/firefly/static/data/startup.json
